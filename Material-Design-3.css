@@ -1,0 +1,133 @@
+@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
+
+body {
+    --font: 'figtree';
+    --code-font: '';
+    font-weight: 400;
+
+    --gap: 12px;
+    --divider-thickness: 4px;
+    --border-thickness: 1px;
+
+    --animations: on;
+    --list-item-transition: 0.2s ease;
+    --dms-icon-svg-transition: 0.4s ease;
+    --border-hover-transition: 0.2s ease;
+
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: titlebar;
+    --top-bar-title-position: off;
+    --subtle-top-bar-title: off;
+
+    --custom-window-controls: on;
+    --window-control-size: 14px;
+
+    --custom-dms-icon: custom;
+    --dms-icon-svg-url: url('https://refact0r.github.io/midnight-discord/assets/Font_Awesome_5_solid_moon.svg');
+    --dms-icon-svg-size: 90%;
+    --dms-icon-color-before: var(--icon-secondary);
+    --dms-icon-color-after: var(--white);
+    --custom-dms-background: off;
+    --dms-background-image-url: url('');
+    --dms-background-image-size: cover;
+    --dms-background-color: linear-gradient(70deg, var(--accent-1), var(--accent-2));
+
+    --background-image: off;
+    --background-image-url: url('');
+
+    --transparency-tweaks: off;
+    --remove-bg-layer: off;
+    --panel-blur: off;
+    --blur-amount: 12px;
+    --bg-floating: var(--bg-3);
+
+    --custom-chatbar: aligned;
+    --chatbar-height: 47px;
+    --chatbar-padding: 8px;
+
+    --small-user-panel: on;
+}
+
+:root, [class*="dark"] {
+    --colors: on;
+
+    --text-0: #381E72;
+    --text-1: #EADDFF;
+    --text-2: #CAC4D0;
+    --text-3: #938F99;
+    --text-4: #49454F;
+    --text-5: #211F26;
+
+    --bg-1: #2B2930;
+    --bg-2: #211F26;
+    --bg-3: #1C1B1F;
+    --bg-4: #141317;
+    --hover: rgba(208, 188, 255, 0.08);
+    --active: rgba(208, 188, 255, 0.12);
+    --active-2: rgba(208, 188, 255, 0.16);
+    --message-hover: rgba(255, 255, 255, 0.02);
+
+    --accent-1: #D0BCFF;
+    --accent-2: #CCC2DC;
+    --accent-3: #4F378B;
+    --accent-4: #D0BCFF;
+    --accent-5: #EADDFF;
+    --accent-new: #F2B8B5;
+    --mention: rgba(208, 188, 255, 0.2);
+    --mention-hover: rgba(208, 188, 255, 0.3);
+    --reply: rgba(202, 196, 208, 0.2);
+    --reply-hover: rgba(202, 196, 208, 0.3);
+
+    --online: #A8C7FA;
+    --dnd: #F2B8B5;
+    --idle: #FFD86F;
+    --streaming: #D0BCFF;
+    --offline: #938F99;
+
+    --border-light: rgba(255, 255, 255, 0.1);
+    --border: #49454F;
+    --border-hover: #D0BCFF;
+    --button-border: #CAC4D0;
+}
+
+[class*="light"] {
+    --colors: on;
+
+    --text-0: #FFFFFF;
+    --text-1: #1C1B1F;
+    --text-2: #49454F;
+    --text-3: #79747E;
+    --text-4: #CAC4D0;
+    --text-5: #E7E0EC;
+
+    --bg-1: #F7F2FA;
+    --bg-2: #FEF7FF;
+    --bg-3: #FFFFFF;
+    --bg-4: #E7E0EC;
+    --hover: rgba(103, 80, 164, 0.08);
+    --active: rgba(103, 80, 164, 0.12);
+    --active-2: rgba(103, 80, 164, 0.16);
+    --message-hover: rgba(0, 0, 0, 0.02);
+
+    --accent-1: #6750A4;
+    --accent-2: #625B71;
+    --accent-3: #EADDFF;
+    --accent-4: #4F378B;
+    --accent-5: #21005D;
+    --accent-new: #B3261E;
+    --mention: rgba(103, 80, 164, 0.2);
+    --mention-hover: rgba(103, 80, 164, 0.3);
+    --reply: rgba(98, 91, 113, 0.2);
+    --reply-hover: rgba(98, 91, 113, 0.3);
+    
+    --online: #4185F4;
+    --dnd: #B3261E;
+    --idle: #FFC107;
+    --streaming: #6750A4;
+    --offline: #79747E;
+
+    --border-light: rgba(0, 0, 0, 0.1);
+    --border: #CAC4D0;
+    --border-hover: #6750A4;
+    --button-border: #79747E;
+}
